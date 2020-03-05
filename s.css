@@ -1,0 +1,58 @@
+html,body
+{
+	height: 100%;
+	margin: 0px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	line-height: 200%;
+	color: #fff;
+	text-align: center;
+}
+
+.img
+{
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 20%;	
+	
+}
+
+.n1
+{
+	position: absolute;
+	top:33%;
+	left: 48%;
+}
+.t
+{
+	position: absolute;
+	top:67%;
+	left: 54%;
+	width: 50px;
+}	
+.n
+{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 30px;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	transition: 1s;
+}
+.n2
+{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 30px;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	transition: 2s;
+	cursor: pointer;
+}
+
+.n2:hover
+{
+	margin: 10px;
+	background: #ff81cf;
+	box-shadow: 0 0 10px #ff6dc7, 0 0 20px #ff46b8, 0 0 40px #ff1fa9, 0 0 80px #f70098;
+	transition: 0.4s;
+}
